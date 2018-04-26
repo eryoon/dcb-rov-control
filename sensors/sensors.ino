@@ -25,7 +25,6 @@ void setup() {
   inputstring.reserve(10);                            //set aside some bytes for receiving data from the PC
   sensorstring.reserve(30);        
   Wire.begin();
-  // Calibrate Joystick
   
   bar.init();
   bar.setFluidDensity(122); // kg/m^3 (997 freshwater, 1029 for seawater)
